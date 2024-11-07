@@ -106,7 +106,7 @@ section {
 #feature-section-route-container {
   display: flex;
   flex-direction: column;
-  gap: ;
+  gap: 10px;
 }
 .feature-section-routes {
   display: flex;
@@ -224,12 +224,21 @@ section {
   color: #777777;
 }
 
-footer {
+#footer-containar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 #top-footer {
   padding: 150px 0;
   background-color: #171717;
   text-align: center;
+}
+
+#footer-button{
+  color: white;
+  margin-top: 10px;
 }
 
 #top-footer > h1 {
